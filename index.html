@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSV Generator H2H</title>
+		<link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+		<script src="node_modules/jquery/dist/jquery.js"></script>
+		<script src="node_modules/file-saver/FileSaver.js"></script>
+		<script src="h2h.js"></script>
+	</head>
+	<body>
+		<section class="hero is-primary">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+						CSV Generator H2H
+					</h1>
+					<h2 class="subtitle">
+						Esay test H2H application with ready generated csv
+					</h2>
+				</div>
+			</div>
+		</section>
+		<div class="container">
+			<div class="card" style="margin-top: 36px;">
+				<div class="card-content">
+					<h1 class="title">Form Generate FK</h1>
+					<h2 class="subtitle">Please fill requirement input for generate csv</h2>
+					<div class="field">
+						<label class="label">Total Data</label>
+						<div class="control">
+							<input class="input" type="number" placeholder="Total Data" id="fk1">
+						</div>
+					</div>
+					<div class="field">
+						<label class="label">Total Child of Object</label>
+						<div class="control">
+							<input class="input" type="number" placeholder="Total Child of Object" id="fk2">
+						</div>
+					</div>
+					<div class="field is-grouped">
+						<div class="control">
+							<button class="button is-primary" id="fksubmit">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="csv" style="width: 100%; margin-top: 36px;">
+			</div>
+			<div id="replace" style="width: 100%; margin-top: 36px;">
+			</div>
+		</div>
+	</body>
+</html>

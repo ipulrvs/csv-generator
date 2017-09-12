@@ -1,0 +1,17 @@
+{
+  "name": "h2h-csv-generator",
+  "version": "1.0.0",
+  "description": "Generate Csv for H2H",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ipulrvs@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.5.2",
+    "file-saver": "^1.3.3",
+    "http-server": "^0.10.0",
+    "jquery": "^3.2.1"
+  }
+}
