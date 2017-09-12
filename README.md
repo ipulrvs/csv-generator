@@ -1,6 +1,8 @@
 # CSV-Generator Sample App
 This repository is used for generating csv for sample import for testing import requirement. You can customize to see you fit.
 
+![csv generator h2h](https://user-images.githubusercontent.com/6582408/30315548-8ca1f8fc-97ce-11e7-9127-7e04a923d1a4.png)
+
 ## Getting Started 
 - Clone this Repository `git clone https://github.com/ipulrvs/csv-generator`
 - Install requirement module `npm install` or `yarn`
